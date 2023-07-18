@@ -1,4 +1,5 @@
 #include <iostream>
+//outra maneira inclui usar ternary operators
 
 int main() {
     int age;

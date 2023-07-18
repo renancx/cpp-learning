@@ -1,4 +1,6 @@
 #include <iostream>
+//www.cplusplus.com/reference/string/string/
+
 
 int main(){
     //cout << insertion operator
