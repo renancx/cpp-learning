@@ -15,7 +15,7 @@ int main(){
         std::cin >> vetor[i];
     }
 
-    std::cout << "Vetor: \n" << std::endl;
+    std::cout << "\nVetor: " << std::endl;
     for(int j =0; j < tamanho; j++){
         std::cout << vetor[j] << std::endl;
     }
