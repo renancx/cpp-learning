@@ -12,10 +12,10 @@ int main() {
     int x = 10;
 
     passByValue(x);
-    std::cout << "Valor de x após passByValue: " << x << std::endl;  // Saída: 10 (valor original não foi alterado)
+    std::cout << "Valor de x apos passByValue: " << x << std::endl;  // Saída: 10 (valor original não foi alterado)
 
     passByReference(x);
-    std::cout << "Valor de x após passByReference: " << x << std::endl;  // Saída: 100 (valor original foi modificado)
+    std::cout << "Valor de x apos passByReference: " << x << std::endl;  // Saída: 100 (valor original foi modificado)
 
     return 0;
 }
