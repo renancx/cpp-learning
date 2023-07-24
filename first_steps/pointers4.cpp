@@ -24,4 +24,13 @@ int main(){
     std::cout << "Endereco: " << ponteiro << std::endl;
 
     // eh o mesmo ponteiro mas com tipos diferentes
+
+    /*
+    Pode-se concluir então que o ponteiro genérico é poderoso por permitir alternar
+    o apontamento entre vários tipos, o que trás várias possibilidades ao programador.
+    Além disso, pode-se dizer que a implementação é relativamente simples, pois há pouca
+    mudança em relação aos ponteiros de um tipo específico, a única diferença reside no
+    fato de que é necessário realizar a conversão do ponteiro genérico ao fazer atribuição,
+    ou obter o valor do conteúdo para o qual o ponteiro aponta.
+    */
 }
