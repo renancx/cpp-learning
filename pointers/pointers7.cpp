@@ -6,9 +6,17 @@ int increment(int a){
     return a;
 }
 
+int adiciona(int &a){
+    a=a+2;
+    std::cout << "Endereco de a na funcao 'adciona' = " << &a << std::endl;
+    std::cout << "a = " << a << std::endl;
+    return a;
+}
+
 int main(){
     int a = 10;
     increment(a);
+    adiciona(a);
     std::cout << "Endereco de a na funcao 'main' = " << &a << std::endl;
 
 }
