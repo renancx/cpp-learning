@@ -16,4 +16,11 @@ int main(){
     delete p;
     std::cout << p << std::endl;
     return 0;
+
+    //static memory = Memory allocated during compile time
+
+    //dynamic memory = Memory allocated during runtime
+    //use the 'new' operator to allocate memory in the heap rather than the stack
+    //useful when you don't know how much memory you need
+    //makes your program more flexible, especially when accepting user input
 }
