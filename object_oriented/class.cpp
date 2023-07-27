@@ -25,7 +25,8 @@ int main(){
 
     std::cout << human1.name << std::endl;
     std::cout << human1.age << std::endl;
-    std::cout << human1.job << std::endl;
+    std::cout << human1.job << "\n" << std::endl;
 
-    
+    human1.eat();
+    human1.sleep();    
 }
