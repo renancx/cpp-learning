@@ -8,14 +8,14 @@ class AbstractEmpregado{
 };
 
 class Empregado:AbstractEmpregado { //private is the default
-    private: 
+    private: //private can only be accessed by the class itself
         std::string cargo_empregado;
         int idade_empregado;
 
-    protected:
+    protected: //protected is like private, but it can be accessed by the derived class
         std::string nome_empregado;
 
-    public:
+    public: //public can be accessed by anyone
         //getters and setters
         void setNome(std::string nome){
             nome_empregado = nome;
@@ -86,7 +86,7 @@ class Programador: public Empregado { //Programador eh uma classe filho e tem to
         }
 };
 
-class Professor: public Empregado {
+class Professor: public Empregado { //public eh para que as propriedades da classe Empregado sejam publicas para a classe Professor
     public:
         std::string materia_professor;
 
